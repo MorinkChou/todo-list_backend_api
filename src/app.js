@@ -17,7 +17,7 @@ app.use(cors());
 app.use(bodyParser.json())
 
 const mongoose = require('mongoose')
-mongoose.connect(dbHost||'mongodb://localhost:27017/todoapp')
+mongoose.connect(dbHost)
 
 
 app.use('/api', todoRoutes);
