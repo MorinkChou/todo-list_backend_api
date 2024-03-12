@@ -1,6 +1,6 @@
 .env
 .eslintrc.json
-/ndoe_modules/
+/node_modules/
 
 index.js
 
